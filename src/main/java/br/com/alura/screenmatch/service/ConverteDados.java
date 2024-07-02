@@ -16,3 +16,5 @@ public class ConverteDados implements IConverteDados {
         }
     }
 }
+
+//classes ou/e metodos templates
