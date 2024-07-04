@@ -108,7 +108,7 @@ public class Main {
         DoubleSummaryStatistics est = episodios.stream()
                 .filter(e -> e.getAvaliacao() > 0.)
                 .collect(Collectors.summarizingDouble(Episodio::getAvaliacao));
-//        System.out.println(est);
+        System.out.println(est);
 
         System.out.println("Média: " + est.getAverage());
         System.out.println("Melhor episódio: " + est.getMax());
